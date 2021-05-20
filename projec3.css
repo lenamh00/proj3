@@ -1,0 +1,208 @@
+body{
+    background-color: #eee;
+    font-family: sans-serif;
+}
+.main{
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    
+    margin :0 auto;
+    padding :0 20px;
+    position:relative;
+
+}
+#header{
+    display: flex;
+    align-items:center;
+    
+   max-width: 100%;
+    flex-direction: column;
+   width:80%;
+   height: 100px;
+padding :15px 20px;
+position:fixed;
+background-color: #eee;
+left: 0;
+right: 0;
+top: 0;
+}
+
+.lo{
+display: flex;
+}
+.lo img{
+    width: 40%;
+    border-radius: 50%;
+    
+}
+
+#nav-bar{
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+    min-height: 80px;
+}
+
+
+#nav-bar ul{
+    text-align: center;
+    padding: 0px;
+    color:black;
+}
+
+#nav-bar ul li{
+    display: inline;
+    display: block;
+    margin-bottom: 20px;
+    color:black;
+
+}
+
+#nav-bar ul li a{
+    font-size: 20px;
+    color:#0000;
+    text-decoration: none;
+   
+}
+
+
+.form{
+    display: flex;
+    max-width: 100%;
+align-items: center;
+flex-direction: column;
+margin-top: 100px;
+
+}
+
+
+.form form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   width: 100%;
+   max-width: 450px;
+
+}
+.form form input{
+    display: block;
+}
+
+#email{
+    padding: 8px;
+   max-width: 900px;
+    margin-bottom: 20px;
+   border-radius: 1px solid black;
+    background-color:white;
+    width: 300px;
+
+}
+#submit{
+
+    background-color: yellow;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    padding: 4px;
+    font-size: 20px;
+    border: none;}
+
+#feature{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#feature.card{
+    display: flex;
+    align-items: center;
+    display: none;
+
+}
+#feature.card.icon{
+    width: 100%;
+    color:orange;
+    display: none;
+
+
+}
+  #feature.card .content{
+    flex-grow: 1;
+    text-align: center;
+}
+
+#howtowork{
+    width:100%;
+    margin: 50px auto;
+}
+
+#pricing{
+    width: 100%;
+   
+    flex-direction:row;
+    display: inline-block;
+
+}
+
+#pricing .pp{
+    margin: 0 auto;
+    margin-bottom: 15px;
+    border: 1px solid #000;
+    max-width: 350px;
+    width: 100%;
+    border-radius: 4px;
+    text-align: center;
+}
+
+#pricing .pp h2{
+    background-color: #ddd;
+    color:black;
+    padding: 18px 0;
+    width: 100%;
+    margin: 0;
+
+
+}
+
+#pricing .pp strong{
+    font-size: 24px;
+
+}
+
+#pricing .pp button{
+    border:0;
+    margin: 15px;
+    background-color: yellowgreen;
+    padding: 8px 20px;
+    border:none;
+    font-size: 25px;
+}
+
+#footer{
+    background-color: rgb(167, 157, 142);
+    padding:20px;
+    margin-top: 30px;
+    text-align: center;
+
+}
+ #uu{
+    padding: 5px;
+    display: inline;
+}
+#uu li{
+    display: inline;
+    padding: 5px;
+    text-align: left;
+}
+#uu  ul li a{
+    color: #000
+    ;
+    text-decoration: none;
+}
+#uu p{
+    text-align: left;
+}
+
+
+
